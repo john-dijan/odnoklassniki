@@ -1,0 +1,435 @@
+@import 'https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css';
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Helvetica Neue",Arial,sans-serif;
+}
+
+.header{
+    height: 28px;
+    width: 100%;
+    display: flex;
+    background: white;   
+    font-size: 12px;
+    clear: both;
+    align-items: center;
+    padding: 8px;
+    font-family: "Helvetica Neue",Arial,sans-serif;
+}
+
+.header a{
+    text-decoration: none;
+    color: blue;
+    margin: 4.5px;
+}
+
+.header a:hover{
+    color: orange;
+}
+
+.header svg{
+    height: 10px;
+}
+
+.right{
+    margin-left: 554px;
+}
+
+.navbar{
+    display: flex;
+    padding: 10px;
+    background: #ee8208;
+    height: 48px;
+    width: 100%;
+    font-family: Arial,Helvetica,sans-serif;
+}
+
+
+.navbar img{
+    margin-left: 140px;
+    width: 160px;
+}
+
+.tool{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    height: 100%;
+    margin-left: 40px;
+}
+
+.tool i{
+    font-size: 25px;
+    position: relative;
+    top: -4px;
+    color: white;
+    margin-bottom: 1px;
+}
+
+.tool a{
+    text-decoration: none;
+    font-size: 10px;
+    color: #f8d6b4;
+}
+
+.input{
+    margin-left: 60px;
+}
+
+.input input{
+    padding: 9px 10px;
+    background-image: url('https://html5css.ru/edithtm/searchicon.png');
+    background-repeat: no-repeat;
+    background-position: 95% 7px;
+    outline: none;
+    border: 0;
+    border-radius: 50px;
+}
+
+::placeholder{
+    margin-left: 3px;
+    color: darkgray;
+    font-weight: 700;
+}
+
+.photo{
+    padding: 2px 13px;
+    display: flex;
+    cursor: pointer;
+}
+
+.photo > .fake{
+    background: black;
+    width: 26px;
+    height: 26px;
+    border-radius: 50px;
+}
+
+.photo svg{
+    width: 16px;
+    height: 16px;
+    fill:white;
+    margin-top: 5px;
+    margin-left: 3px;
+}
+
+.tool a:hover{
+    background: #E27B08;
+    padding: 1px 5px;
+}
+
+.ok{
+    padding: 44px 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    background: #F0F0F0;
+    height: auto;
+    min-height: 100%;
+    
+}
+
+.container{
+    margin: 0 150px;
+    padding: 12px 12px 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    border-radius: 4px;
+}
+
+.leftcol{
+    flex-basis: 240px;
+    margin-right: 12px;
+}
+
+.leftcol img{
+    width: 240px;
+    height: 240px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.nd{
+    padding: 10px;
+    background: white;
+    margin-top: 10px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+}
+
+.nd svg{
+    width: 16px;
+    height: 16px;
+    fill: #999999;
+    position: relative;
+    margin-left: 30px;
+    left: -5%;
+    top: 2px;
+}
+
+.nd img{
+    width: 16px;
+    height: 16px;
+    position: relative;
+    margin-left: 30px;
+    left: -5%;
+    margin-top: 10px;
+    top: 2px;
+}
+
+.nd a{
+    text-decoration: none;
+    margin-top: 10px;
+    color: #666666;
+    font-size: 14px;
+}
+
+.nd a:hover{
+    text-decoration: underline;
+}
+
+.center{
+    flex-basis: 580px;
+    border-radius: 4px;
+}
+
+.menu{
+    padding: 5px 8px;
+    margin-top: 10px;
+    background: #ffffff;
+    border-radius: 4px;
+    height: auto;
+    display: flex;
+    flex-flow: wrap column;
+}
+
+.menu a{
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    padding: 4px 20px;
+}
+
+.menu svg{
+    width: 28px;
+    height: 28px;
+    position: relative;
+    left: -8%;
+    top: 18%;
+    margin-top: 10px;    
+    opacity: .8;
+}
+
+.menu a:hover{
+    background: #f6f6f6;
+}
+
+.status{
+    padding: 10px;
+    background: white;
+    border-radius: 4px;
+}
+
+.status input{
+    width: 100%;
+    padding: 12px;
+    outline: none;
+    border: none;
+    color: #666666;
+    font-size: 18px;
+}
+
+.status2{
+    padding: 10px;
+    margin-top: 1px;
+    background: white;
+    border-radius: 4px;
+}
+
+.status2 svg{
+    width: 28px;
+    height: 28px;
+    position: relative;
+    top: 7.5px;
+    margin-right: 5px;
+}
+
+.status2 a{
+    text-decoration: none;
+    background: rgba(0,0,0,.04);
+    padding: 8px 10px;
+    font-size: 12px;
+    margin-left: 10px;
+    border-radius: 50px;
+    position: relative;
+    top: -6px;
+}
+
+.links{
+    padding: 15px;
+    background: white;
+    margin-top: 10px;
+    border-radius: 4px;
+}
+
+.links a{
+    text-decoration: none;
+    font-size: 14px;
+    margin-left: 11.2px;
+    color: #999999;
+}
+
+a.active{
+    color: black;
+}
+
+.lenta{
+    padding: 10px;
+    border-radius: 4px;
+    background: white;
+    margin-top: 1px;
+    font-size: 14px;
+}
+
+.lenta a{
+    text-decoration: none;
+    margin-left: 8px;
+    color: inherit;
+}
+
+.con{
+    padding: 12px 12px 16px;
+    background: white;
+    margin-top: 1px;
+    border-radius: 4px;
+}
+
+.ph{
+    width: 40px;
+    display: inline-block;
+    height: 40px;
+    background: black;
+    border-radius: 50px;
+    position: relative;
+    top: 20px;
+    margin-right: 10px;
+}
+
+.con a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.con a.pho{
+    font-weight: 700;
+    position: relative;
+    top: -10px;
+    font-size: 12px;
+}
+
+.friend{
+    display: inline;
+    position: relative;
+    top: -10px;
+    right: -260px;
+    font-size: 12px;
+    background: rgba(0,0,0,.04);
+    padding: 7px 15px;
+    border-radius: 50px;
+}
+
+.text{
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.fo{
+    width: 414px;
+    height: 411px;
+    background: #f1f1f1;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.fo h1{
+    position: relative;
+    top: 40%;
+    font-size: 50px;
+}
+
+.com{
+    margin-top: 10px;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+.com a{
+    background: rgba(0,0,0,.04);
+    padding: 5px 8px;
+    border-radius: 50px;
+    color: #333333;
+    
+}
+
+.com svg{
+    height: 16px;
+    width: 16px;
+    fill: #666666;
+    position: relative;
+    top: 3px;
+}
+
+.com i{
+    color: #666666;
+}
+
+#lenta{
+    margin-top: 10px;
+}
+
+.rightcol{
+    width: 246px;
+    padding: 10px;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: -3503px;
+    border-radius: 4px;
+    left: -95px;
+    background: white;
+}
+
+.ra{
+    width: 32px;
+    height: 32px;
+    background: black;
+    display: inline-block;
+    border-radius: 50px;
+    position: relative;
+    top: 10px;
+    left: -15px;
+}
+
+.rightcol a{
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 20px;
+    color: inherit;
+    font-weight: 600;
+    position: relative;
+    top: -8px;
+    right: -25px;
+}
+
+.rightcol svg{
+    width: 16px;
+    height: 16px;
+    fill: #999999;
+    position: relative;
+    top: 4px;
+    right: -48px;
+}

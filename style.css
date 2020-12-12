@@ -1,0 +1,182 @@
+@import 'https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css';
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url('https://st.mycdn.me/static/pro3/1-0-102/_storage/i/visual/ny_test.jpg') no-repeat;
+}
+
+.header{
+    height: 28px;
+    width: 100%;
+    display: flex;
+    background: white;   
+    font-size: 12px;
+    clear: both;
+    align-items: center;
+    padding: 6px;
+    font-family: "Helvetica Neue",Arial,sans-serif;
+}
+
+.header a{
+    text-decoration: none;
+    color: blue;
+    margin: 10px;
+}
+
+.header a:hover{
+    color: orange;
+}
+
+.header svg{
+    height: 10px;
+}
+
+.right{
+    margin-left: 455px;
+}
+
+.ok{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    border-radius: 5px;
+    width: 80%;
+    padding: 10px;
+    height: 530px;
+}
+
+.ok > svg{
+    width: 82px;
+    height: 82px;
+    float: left;
+    margin-left: 10px;
+    margin-top: -5px;
+    fill: white;
+}
+
+.login{
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    border-radius: 2px;
+    height: auto;
+    float: right;
+    background: white;
+}
+
+.log{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.border{
+    border-bottom: 1px solid #999999;
+    padding: 10px;
+    margin-bottom: -1px;
+    margin-top: 10px;
+}
+
+.border a{
+    text-decoration: none;
+    color: #999999;
+    font-size: 14px;
+    padding: 10px;
+    margin-bottom: -1px;
+}
+
+a.vh{
+    color: black;
+    border-bottom: 2px solid orange;
+    margin-bottom: -2px;
+}
+
+.log label{
+    margin-bottom: 6px;
+    margin-top: 10px;
+}
+
+.log input{
+    padding: 6px;
+    line-height: 17px;
+    outline: none;
+    font-size: 14px;
+    margin-bottom: 20px;
+    background: #ffffff;
+    border: 1px solid #e0e0e0;
+}
+
+.log input[type="submit"]{
+    margin-top: 5px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    background: #EE8208;
+    padding: 9px;
+    color: white;
+    font-size: 14px;
+}
+
+a.voy{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+a.no{
+    text-decoration: none;
+    color: grey;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 30px;
+    position: relative;
+    z-index: 1;
+}
+
+a.reg{
+    text-align: center;
+    margin-top: 30px;
+    text-decoration: none;
+    color: black;
+    background: lightgray;
+    padding: 10px;
+    border-radius: 50px;
+    width: 50%;
+    margin-left: 98px;
+}
+
+a.no::before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    border-top: 1px #ddd solid;
+}
+
+.icons i{
+    font-size: 23px;
+    color: black;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+#vk i{
+    color: dodgerblue;
+}
+
+#fb i{
+    color: blue;
+}
+
+#you i{
+    color: red;
+}
