@@ -158,8 +158,17 @@ a.no::before{
     position: absolute;
     top: 50%;
     left: 0;
-    right: 0;
+    width: 90px;
     border-top: 1px #ddd solid;
+}
+
+a.no::after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 90px;
+    border-top: 1px solid #ddd;
 }
 
 .icons i{
